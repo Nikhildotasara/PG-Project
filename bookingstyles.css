@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:aliceblue;
+}
+.floor_heading{
+    background-color: white;
+}
+.details_table{
+    background-color: white;
+}
+.mainDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.floor_1{
+    display: flex;
+    border-radius: 8px;
+    /* justify-content: space-between; */
+    border: 1px solid #c5c5c5; 
+    background-color: rgb(238, 23, 23);
+    height: 96%;
+    width: 48%;
+}
+.floor_1:hover{
+    box-shadow: 2px 2px 7px grey, -2px -2px 7px grey;
+}
+.floor_2{
+    display: flex;
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    background-color: white;
+    height: 96%;
+    width: 48%;
+}
+.floor_2:hover{
+    box-shadow: 2px 2px 7px grey, -2px -2px 7px grey;
+
+}
+.leftBoxesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 1%;
+    width: 30%;
+    
+}
+.bottomBoxesDiv{
+    display: flex;
+    padding: 1%;
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: white;
+    height: 100%;
+    width:60%;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.rightBoxesDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    background-color: white;
+    padding: 1%;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+
+.boxes_left{
+    box-sizing: border-box;
+    height:20%;
+    width: 100%;
+}
+.boxes_bottom{
+    width: 100%;
+    height: 10%;
+}
+.boxes_right{
+    box-sizing: border-box;
+    height:20%;
+    width: 100%;
+}
+.box{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color: rgb(241, 240, 240);
+    box-shadow: 1px 1px 4px grey;
+}
+.subBox:hover{
+    background-color: rgb(226, 226, 226);
+}
+.subBox{
+    display: flex;
+    background-color: rgb(241, 240, 240);
+    border-radius: 6px;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.floor_1_details{
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    border: 1px solid black;
+}
+.floor_2_details{
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    border: 1px solid black;
+
+}
+.subBox.booked {
+    background-color: darkgrey;
+}
