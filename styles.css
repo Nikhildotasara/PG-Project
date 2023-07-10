@@ -4,15 +4,19 @@
     /* overflow-x: hidden; */
     scroll-behavior: smooth;
 }
+.wrapper{
+    position: relative;
+}
 .navbar{
     display: flex;
     width: 100%;
     height: 100px;
-    color: green;
+    color: black;
     justify-content: space-around;
-    background-color: rgb(101, 210, 253);
+    background-color: rgb(54, 125, 94);
     font-size: 20px;
 }
+
 .navbar-first{
     display: flex;
     height: 80px;
@@ -32,7 +36,8 @@
 .login{
     width: 100px;
     height: 50px;
-    color: green;
+    color: black;
+    background-color: white;
     border-radius: 20px;
     font-weight: 700;
     font-size: 18px;
@@ -46,14 +51,13 @@
     width: 120px;
     height: 50px;
     border-radius: 20px;
-    color: white;
+    color: black;
     font-weight: 800;
     font-size: 14px;
-    background-color: rgb(16,87,73);
+    background-color: white;
 }
 .get-started:hover{
     background-color: greenyellow;
-    color: green;
     transition: 0.2s ease-in;
 }
 .content{
@@ -83,6 +87,27 @@
     font-size: 25px;
     margin-left: 20px;
 }
+.pg-name-img{
+    display:flex;
+    width : 900px;
+    align-items: center;
+}
+.PG-Name{
+    margin-left: 8px;
+    color: white;
+}
+
+.contact,.features,.gallery,.pricing{
+    color: black;
+    text-decoration: none;
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    font-weight: 900;
+    /* border: 2px solid rgb(54, 125, 94); */
+}
 .heading{
     color: white;
     font-size: 52px;
@@ -101,6 +126,7 @@
 }
 
 .get-started-main{
+    margin-left:20px;
     margin-right: 20px;
     margin-top: 60px;
     width: 150px;
@@ -297,11 +323,144 @@
 }
 .contact-us-list-item{
     margin-top: 15px;
+    margin-left: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-decoration: none;
 }
 a{
     text-decoration: none;
+}
+
+
+/* Signup wala decoration here */
+.SignUp-page{
+    width:500px ;
+    scale: 0;
+    height: 600px;
+    position: absolute;
+    right: 650px;
+    top: 200px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px grey;
+    transition: all 0.3s ease-in;
+
+}
+.input-tag{
+    border: none;
+    font-size: 20px;
+    width: 365px;
+    height: 40px;
+    margin: 15px;
+}
+.createAccount-heading{
+    color: black;
+    margin: 10px;
+    margin-left: 120px;
+    font-size: 40px;
+}
+.createAccountButton{
+    width: 83%;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.form-div{
+    margin-left: 50px;
+}
+.alreadyAccount{
+    margin-top: 20px;
+    margin-left:94px;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+}
+.Sign-Up-closeButton{
+    margin-left: 450px;
+    width: 50px;
+    height: 50px;
+    border-top-right-radius: 20px;
+}
+
+/* Log In page is starting from here */
+.logIn{
+    width: 500px;
+    background-color: red;
+    height: 500px;
+    margin-left: 300px;
+    position: absolute;
+    right: 650px;
+    top: 200px;
+    background-color: white;
+    margin-left: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px grey;
+    scale: 0;
+    transition: all 0.3s ease-in;
+}
+.logIn-input-tag{
+    display: flex;
+    margin-top: 15px;
+    border: none;
+    font-size: 20px;
+    width: 365px;
+    height: 40px;
+}
+.login-inputs{
+    display: flexbox;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.logIn-heading{
+    font-family: sans-serifs;
+    display: flex;
+    color: black;
+    margin-top: 5px;
+    /* margin-left: 120px; */
+    font-size: 40px;
+    justify-content: center;
+}
+.logIn-Button{
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 76%;
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+#rememberMe{
+
+}
+.logIn-closeButton{
+    width: 50px;
+    height: 50px;
+    margin-left: 450px;
+    border-top-right-radius: 10px;
+}
+.forgetPassword{
+    margin-right: 60px;
+}
+.rememberandforget{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+/* Javascript se cheedkani yahan se h */
+.active{
+    scale: 1;
+    transition: all 0.1s ease-out;
+}
+
+
+.checking{
+    width: 100px;
+    background-color: red;
+    height: 20px;
 }
